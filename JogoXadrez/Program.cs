@@ -1,5 +1,6 @@
 ﻿using System;
 using Tabuleiro;
+using Tabuleiro.Exceptions;
 using Xadrez;
 
 namespace JogoXadrez
@@ -8,15 +9,22 @@ namespace JogoXadrez
     {
         static void Main(string[] args)
         {
-            TabuleiroXadrez Tab = new TabuleiroXadrez(8, 8);
+            try
+            {
+                TabuleiroXadrez Tab = new TabuleiroXadrez(8, 8);
 
-            Tab.ColocarPeca(new Torre(Tab, Cor.Preta) , new Posicao(0, 0));
-            Tab.ColocarPeca(new Torre(Tab, Cor.Preta), new Posicao(1, 3));
-            Tab.ColocarPeca(new Rei(Tab, Cor.Preta), new Posicao(2, 4));
+                Tab.ColocarPeca(new Torre(Tab, Cor.Preta), new Posicao(0, 0));
+                Tab.ColocarPeca(new Torre(Tab, Cor.Preta), new Posicao(1, 3));
+                Tab.ColocarPeca(new Rei(Tab, Cor.Preta), new Posicao(3, 4));
 
-            Tela.ImprimirTabuleiro(Tab);
+                Tela.ImprimirTabuleiro(Tab);
 
-            Console.ReadLine();
+                Console.ReadLine();
+            }
+            catch (TabuleiroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }
