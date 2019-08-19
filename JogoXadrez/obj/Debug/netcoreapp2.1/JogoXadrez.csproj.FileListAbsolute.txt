@@ -1,0 +1,11 @@
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\bin\Debug\netcoreapp2.1\JogoXadrez.deps.json
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\bin\Debug\netcoreapp2.1\JogoXadrez.runtimeconfig.json
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\bin\Debug\netcoreapp2.1\JogoXadrez.runtimeconfig.dev.json
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\bin\Debug\netcoreapp2.1\JogoXadrez.dll
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\bin\Debug\netcoreapp2.1\JogoXadrez.pdb
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\obj\Debug\netcoreapp2.1\JogoXadrez.csprojAssemblyReference.cache
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\obj\Debug\netcoreapp2.1\JogoXadrez.csproj.CoreCompileInputs.cache
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\obj\Debug\netcoreapp2.1\JogoXadrez.AssemblyInfoInputs.cache
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\obj\Debug\netcoreapp2.1\JogoXadrez.AssemblyInfo.cs
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\obj\Debug\netcoreapp2.1\JogoXadrez.dll
+C:\Users\Joao Guilherme\source\repos\JogoXadrez\JogoXadrez\obj\Debug\netcoreapp2.1\JogoXadrez.pdb
