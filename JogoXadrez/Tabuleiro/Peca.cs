@@ -11,11 +11,11 @@
         {
         }
 
-        public Peca(Posicao posicao, Cor cor, int movCount, TabuleiroXadrez tab)
+        public Peca(Cor cor, TabuleiroXadrez tab)
         {
-            Posicao = posicao;
+            Posicao = null;
             Cor = cor;
-            MovCount = movCount;
+            MovCount = 0;
             Tab = tab;
         }
 
