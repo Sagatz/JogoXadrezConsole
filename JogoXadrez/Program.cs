@@ -1,4 +1,5 @@
 ﻿using System;
+using Tabuleiro;
 
 namespace JogoXadrez
 {
@@ -6,6 +7,7 @@ namespace JogoXadrez
     {
         static void Main(string[] args)
         {
+            Posicao P = new Posicao(3, 4);
         }
     }
 }
